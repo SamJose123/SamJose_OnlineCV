@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/87/52/8957d251b0d0605.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media screen and (min-width: 1281px) {
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+      
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+
+  }
+
+
+/* navbar styling */
+nav {
+    overflow: hidden;
+}
+nav ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 12px;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+}
+
+nav ul li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgba(76, 124, 170, 0.644);
+}
+
+/* Header block including name */
+.box {
+    width: 100%;
+    background: rgba(165, 42, 42, 0.473);
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+    color: white;
+    font-family: 'Century Gothic' , sans-serif;
+}
+/* profile picture */
+.box_img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+/* icons including contact details */
+.icon {
+    position: fixed;
+    width: 100px;
+    background: brown;
+    padding: 30px;
+    text-align: left;
+    -moz-text-size-adjust: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    color: white;
+    float: right;
+    overflow: hidden;
+}
+
+.icon :hover {
+    background-color: black;
+}
+
+/* about me description */
+.about {
+    width: 50%;
+    background: brown;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic' , sans-serif;
+}
+
+/* courses i've completed */
+.courses {
+    width: 50%;
+    background: brown;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic' , sans-serif;
+}
+
+/* school i attended */
+.education {
+    width: 50%;
+    background: brown;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic' , sans-serif;
+}
+
+/* work experience */
+.work {
+    width: 50%;
+    background: brown;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic' , sans-serif;
+}
+
+
+
+
+ 
