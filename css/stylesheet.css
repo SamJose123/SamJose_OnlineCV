@@ -4,67 +4,11 @@ body {
     background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/87/52/8957d251b0d0605.jpg);
     width: 100%;
     background-size: cover;
+    font-family: 'Ruluko';font-size: 17px;
 }
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media screen and (min-width: 1281px) {
-    
-  }
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media screen and (min-width: 1025px) and (max-width: 1280px) {
-      
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-  
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media screen and (min-width: 481px) and (max-width: 767px) {
-
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-
-  }
-
 
 /* navbar styling */
-nav {
-    overflow: hidden;
-}
+
 nav ul {
     position: fixed;
     top: 0;
@@ -74,12 +18,13 @@ nav ul {
     margin: 12px;
     padding: 0;
     overflow: hidden;
-    background-color: brown;
+    background-color: brown;   
 }
 
 nav ul li {
     float: left;
     border-right:1px solid #bbb;
+    border: 1px solid white;
 }
 
 nav ul li a {
@@ -107,7 +52,7 @@ nav ul li a:hover:not(.active) {
     margin: auto;
     margin-top: 8%;
     color: white;
-    font-family: 'Century Gothic' , sans-serif;
+    /* font-family: 'Century Gothic' , sans-serif; */
 }
 /* profile picture */
 .box_img {
@@ -128,14 +73,14 @@ nav ul li a:hover:not(.active) {
 
 /* icons including contact details */
 .icon {
-    position: fixed;
+    position: sticky;
     width: 100px;
     background: brown;
     padding: 30px;
     text-align: left;
     -moz-text-size-adjust: auto;
     margin-right: auto;
-    margin-top: 0%;
+    margin-top: -9%;
     color: white;
     float: right;
     overflow: hidden;
@@ -147,7 +92,7 @@ nav ul li a:hover:not(.active) {
 
 /* about me description */
 .about {
-    width: 50%;
+    width: 90%;
     background: brown;
     padding: 30px;
     text-align: center;
@@ -159,10 +104,10 @@ nav ul li a:hover:not(.active) {
 
 /* courses i've completed */
 .courses {
-    width: 50%;
+    width: 90%;
     background: brown;
     padding: 30px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     margin-top: 5%;
     color: white;
@@ -171,10 +116,22 @@ nav ul li a:hover:not(.active) {
 
 /* school i attended */
 .education {
-    width: 50%;
+    width: 90%;
     background: brown;
     padding: 30px;
-    text-align: center;
+    text-align: left;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic' , sans-serif;
+}
+
+/* my skills i've gained */
+.skills {
+    width: 90%;
+    background: brown;
+    padding: 30px;
+    text-align: left;
     margin: auto;
     margin-top: 5%;
     color: white;
@@ -183,15 +140,69 @@ nav ul li a:hover:not(.active) {
 
 /* work experience */
 .work {
-    width: 50%;
+    width: 90%;
     background: brown;
     padding: 30px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     margin-top: 5%;
     color: white;
     font-family: 'Century Gothic' , sans-serif;
 }
+
+/* footer tag with contact details */
+footer {
+    width: 60%;
+    background: brown;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;  
+}
+
+.blue {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ++++++++++++++++++++++++++ Media Queries */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    
+}
+
+
+
+
+
+
+
+
 
 
 
